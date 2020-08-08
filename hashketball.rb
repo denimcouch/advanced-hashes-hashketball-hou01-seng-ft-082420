@@ -209,7 +209,7 @@ def big_shoe_rebounds
     
     team_data.each do |attribute, data|
       #binding.pry 
-      data.each_value do |key, value|
+      data.each do |key, value|
         binding.pry 
       end 
       binding.pry 
