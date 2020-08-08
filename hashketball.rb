@@ -210,7 +210,7 @@ def big_shoe_rebounds
         data.each do |data_piece|
           #binding.pry
           if size_number == nil || data_piece[:shoe] > size_number
-            puts size_number
+            size_number = data_piece[:shoe]
             rebound_stat = data_piece[:rebounds]
             binding.pry 
           end
