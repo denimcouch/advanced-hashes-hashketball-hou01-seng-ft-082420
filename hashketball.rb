@@ -212,12 +212,12 @@ def big_shoe_rebounds
           if size_number == nil || data_piece[:shoe] > size_number
             size_number = data_piece[:shoe]
             rebound_stat = data_piece[:rebounds]
-            binding.pry 
+            #binding.pry 
           end
-          
-        end 
-        
+        end
       end
     end 
-  end 
+  end
+  binding.pry
+  rebound_stat
 end
