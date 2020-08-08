@@ -206,14 +206,7 @@ def big_shoe_rebounds
   rebound_stat = nil 
   game_hash.each do |location, team_data|
     team_data.each do |attribute, data|
-      binding.pry
-      
-        binding.pry 
-        data.each_value do |key, value|
-        #binding.pry 
-      end 
-      end 
-      #binding.pry 
+      binding.pry 
     end 
   end 
 end
