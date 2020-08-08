@@ -204,7 +204,7 @@ end
 def shoe_helper
   
 end
-ef big_shoe_rebounds
+def big_shoe_rebounds
   game_hash.each do |location, team_data|
     
     team_data.each do |attribute, data|
