@@ -209,7 +209,7 @@ def big_shoe_rebounds
       if attribute == :players
         data.each do |data_piece|
           #binding.pry
-          if data_piece[:shoe] > size_number
+          if size_number == nil || data_piece[:shoe] > size_number
             size_number = data_piece[:shoe]
             rebound_stat = data_piece[:rebounds]
             binding.pry 
