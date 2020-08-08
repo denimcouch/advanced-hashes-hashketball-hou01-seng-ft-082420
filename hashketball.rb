@@ -204,7 +204,18 @@ end
 def shoe_helper
   
 end
-def big_shoe_rebounds
-  
+ef big_shoe_rebounds
+  game_hash.each do |location, team_data|
+    
+    team_data.each do |attribute, data|
+      binding.pry 
+      data[:shoe].max
+        
+      end 
+      binding.pry 
+    end 
+    
+    
+  end 
    
 end
