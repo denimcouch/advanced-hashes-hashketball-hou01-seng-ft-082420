@@ -209,7 +209,7 @@ def big_shoe_rebounds
     
     team_data.each do |attribute, data|
       binding.pry 
-      data.max do
+      data[:shoe].each_value do |value|
       binding.pry 
     end 
     
